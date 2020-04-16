@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPOON_LV2_1", "RPOON_LV2_1\RPOON_LV2_1.csproj", "{EAD2D1BB-E133-41D7-A8AF-473B717670FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAD2D1BB-E133-41D7-A8AF-473B717670FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD2D1BB-E133-41D7-A8AF-473B717670FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD2D1BB-E133-41D7-A8AF-473B717670FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD2D1BB-E133-41D7-A8AF-473B717670FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C193B72-5E40-40B4-8DD1-713671BEEA1D}
+	EndGlobalSection
+EndGlobal
