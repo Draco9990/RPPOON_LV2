@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RPOON_LV2_1
 {
-    class FlexibleDiceRoller : IDiceRollerFlexible
+    class FlexibleDiceRoller : IDiceRollerFlexible, IDiceRollerClosed
     {
         private List<Die> dice;
         private List<int> resultForEachRoll;

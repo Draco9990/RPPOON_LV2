@@ -8,6 +8,5 @@ namespace RPOON_LV2_1
     {
         void InsertDie(Die die);
         void RemoveAllDice();
-        void RollAllDice();
     }
 }

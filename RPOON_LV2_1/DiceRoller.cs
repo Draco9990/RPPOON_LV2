@@ -8,12 +8,14 @@ namespace RPOON_LV2_1
     {
         private List<Die> dice;
         private List<int> lastRollResults;
+        //Zadatak 4
         //private ILogger logger;
 
         public DiceRoller()
         {
             dice = new List<Die>();
             lastRollResults = new List<int>();
+            //Zadatak 4
             //logger = new ConsoleLogger();
         }
 
@@ -41,6 +43,7 @@ namespace RPOON_LV2_1
             get { return dice.Count; }
         }
 
+        //Zadatak 4
         /*public void LogRollingResults()
         {
             foreach (int result in lastRollResults)

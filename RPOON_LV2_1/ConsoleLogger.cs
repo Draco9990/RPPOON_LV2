@@ -6,9 +6,14 @@ namespace RPOON_LV2_1
 {
     class ConsoleLogger : ILogger
     {
-        void ILogger.Log(ILogable data)
+        public void Log(ILogable data)
         {
             Console.WriteLine(data.ToString());
+        }
+
+        public void Log(string message)
+        {
+            Console.WriteLine(message);
         }
     }
 }

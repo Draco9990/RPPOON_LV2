@@ -13,11 +13,19 @@ namespace RPOON_LV2_1
             filePath = filePathIn;
         }
 
-        void ILogger.Log(ILogable data)
+        public void Log(ILogable data)
         {
             using (System.IO.StreamWriter writer = new System.IO.StreamWriter(this.filePath))
             {
                 writer.WriteLine(data.ToString());
+            }
+        }
+
+        public void Log(string message)
+        {
+            using (System.IO.StreamWriter writer = new System.IO.StreamWriter(this.filePath))
+            {
+                writer.WriteLine(message);
             }
         }
     }

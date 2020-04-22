@@ -7,6 +7,7 @@ namespace RPOON_LV2_1
     class Die
     {
         private int numberOfSides;
+        //Zadatak 1
         //private Random randomGenerator;
         private RandomGenerator randomGenerator;
         private int result;
